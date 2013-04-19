@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>webpom</artifactId>
+		<groupId>com.ruyicai</groupId>
+		<version>0.6</version>
+	</parent>
+	<groupId>com.ruyicai.web</groupId>
+	<artifactId>jrtBetcodeResolve</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<name>jrtBetcodeResolve</name>
+	<dependencies>
+		<!-- <dependency> -->
+		<!-- <groupId>jrt_jars</groupId> -->
+		<!-- <artifactId>catalina</artifactId> -->
+		<!-- <version>6.0.29</version> -->
+		<!-- <scope>system</scope> -->
+		<!-- <systemPath>${project.basedir}/lib/catalina-6.0.29.jar</systemPath> -->
+		<!-- </dependency> -->
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>ruyicai</id>
+			<name>Ruyicai Repository</name>
+			<url>http://119.40.53.2:8181/nexus/content/repositories/public/</url>
+		</repository>
+	</repositories>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<finalName>jrtBetcodeResolve</finalName>
+	</build>
+
+
+</project>

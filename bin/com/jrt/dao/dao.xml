@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE daoConfig
+    PUBLIC "-//ibatis.apache.org//DTD DAO Configuration 2.0//EN"
+    "http://ibatis.apache.org/dtd/dao-2.dtd">
+<daoConfig>
+ <context>
+   <transactionManager type="SQLMAP">
+     <property name="SqlMapConfigResource" value="sql-map-config.xml"/>
+   </transactionManager>
+   <dao implementation="com.jrt.dao.impl.CategoryDAOImpl" interface="com.jrt.dao.CategoryDAO"/>
+   <dao implementation="com.jrt.dao.impl.NewsDAOImpl" interface="com.jrt.dao.NewsDAO"/>
+   <dao implementation="com.jrt.dao.impl.AdvertDAOImpl" interface="com.jrt.dao.AdvertDAO"/>
+   <dao implementation="com.jrt.dao.impl.CategorytypeDAOImpl" interface="com.jrt.dao.CategorytypeDAO"/>
+ </context>
+</daoConfig>
